@@ -45,20 +45,20 @@
      },
    },
 
-   Groups: {
-     screen: XScreenTwo,
-     navigationOptions: {
-       header: null,
-       title: 'Back',
-       tabBarLabel: 'Groups',
-       tabBarIcon: (config: {focused: boolean, tintColor: string}) => (
-         <Icon
-           name="group"
-           color={config.tintColor}
-         />
-       ),
-     },
-   },
+   // Groups: {
+   //   screen: XScreenTwo,
+   //   navigationOptions: {
+   //     header: null,
+   //     title: 'Back',
+   //     tabBarLabel: 'Groups',
+   //     tabBarIcon: (config: {focused: boolean, tintColor: string}) => (
+   //       <Icon
+   //         name="group"
+   //         color={config.tintColor}
+   //       />
+   //     ),
+   //   },
+   // },
 
    Publish: {
      screen: XScreenThree,
@@ -91,20 +91,20 @@
      },
    },
 
-   Settings: {
-     screen: XScreenFive,
-     navigationOptions: {
-       header: null,
-       title: 'Back',
-       tabBarLabel: 'Settings',
-       tabBarIcon: (config: {focused: boolean, tintColor: string}) => (
-         <Icon
-           name="settings"
-           color={config.tintColor}
-         />
-       ),
-     },
-   },
+   // Settings: {
+   //   screen: XScreenFive,
+   //   navigationOptions: {
+   //     header: null,
+   //     title: 'Back',
+   //     tabBarLabel: 'Settings',
+   //     tabBarIcon: (config: {focused: boolean, tintColor: string}) => (
+   //       <Icon
+   //         name="settings"
+   //         color={config.tintColor}
+   //       />
+   //     ),
+   //   },
+   // },
 
  };
 

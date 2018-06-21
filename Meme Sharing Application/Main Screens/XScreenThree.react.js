@@ -20,10 +20,9 @@ class XScreenThree extends React.PureComponent<Props, State> {
   render() {
     return (
       <View style={styles.container}>
-        <Text> Manage my portfolio </Text>
         <Button style={styles.Button}
           backgroundColor= '#353536'
-          title="Publish a Meme"
+          title="Post a Photo"
           color= 'white'
           onPress={() => this.props.navigation.navigate('CameraRoll')}
         />
